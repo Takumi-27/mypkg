@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2022 Takumi Ochiai
+# SPDX-License-Identifier: BSD-3-Clause
+
 import rclpy
 from rclpy.node import Node
 from person_msgs.srv import Query #使う型を変更
