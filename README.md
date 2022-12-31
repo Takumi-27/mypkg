@@ -1,14 +1,14 @@
 # mypkg   [![test](https://github.com/Takumi-27/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/Takumi-27/mypkg/actions/workflows/test.yml)
-* このリポジトリはROS2のパッケージであり、talker.py・listener.py・talk_listen.launch.pyという名前のコマンドが含まれている。
+* このリポジトリはROS2のパッケージであり、talker・listener・talk_listen.launchという名前のノードが含まれている。
 * インストールはこちらから。
 ```
 $git clone https://github.com/Takumi-27/mypkg.git
 ```
 
-## talker.py
+## talker
 * 数字をカウントし、countupというトピックを通じてInt16型のメッセージを送信する。
 
-## listener.py
+## listener
 * countupからInt16型のメッセージを受信し、標準出力する。
 
 ## 使用方法および実行結果
@@ -22,8 +22,8 @@ $git clone https://github.com/Takumi-27/mypkg.git
 ・・・
 ```
 
-## talk_listen.launch.py
-* launchファイルを使用することで、talker.pyとlistener.pyを一度に立ち上げることが出来る。
+## talk_listen.launch
+* launchファイルを使用することで、talkerとlistenerを一度に立ち上げることが出来る。
 
 ## 使用方法および実行結果
 ```
