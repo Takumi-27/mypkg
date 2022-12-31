@@ -1,4 +1,4 @@
-# mypkg
+# mypkg   [![test](https://github.com/Takumi-27/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/Takumi-27/mypkg/actions/workflows/test.yml)
 * このリポジトリはROS2のパッケージであり、talker・listener・launchという名前のコマンドが含まれている。
 * インストールはこちらから。
 ```
