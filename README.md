@@ -1,6 +1,9 @@
 # mypkg
-
-## インストール方法
+* このリポジトリはROS2のパッケージであり、talker・listener・launchという名前のコマンドが含まれている。
+* インストールはこちらから。
+```
+$git clone https://github.com/Takumi-27/mypkg.git
+```
 
 ## talker
 * 数字をカウントし、countupというトピックを通じてInt16型のメッセージを送信する。
@@ -13,13 +16,26 @@
 ```
 端末1$ ros2 run mypkg talker
 端末2$ ros2 run mypkg listener
-
+[INFO] [1672465105.340123900] [listener]: Listen: 0
+[INFO] [1672465105.829812200] [listener]: Listen: 1
+[INFO] [1672465106.329438600] [listener]: Listen: 2
+・・・
 ```
 
 ## launch
-* launchファイルを使用することで、複数のノードを一度に立ち上げることが出来る。
-## 使用環境
-* Ubuntu 22.04
+* launchファイルを使用することで、talkerとlistenerを一度に立ち上げることが出来る。
+
+## 使用方法および実行結果
+```
+$ ros2 launch mypkg talk_listen.launch.py
+[listener-2] [INFO] [1672465415.758183600] [listener]: Listen: 0
+[listener-2] [INFO] [1672465416.247063200] [listener]: Listen: 1
+[listener-2] [INFO] [1672465416.747884500] [listener]: Listen: 2
+・・・
+```
+
+## 動作確認済み環境
+* Ubuntu 20.04・22.04
 
 ## ソフトウェア
 * ROS2 humble
