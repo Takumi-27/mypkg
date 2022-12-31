@@ -12,10 +12,10 @@ class Talker():
         node.create_timer(0.5, self.cb)
 
     def cb(self):
-         msg = Int16()
-         msg.data = self.n
-         self.pub.publish(msg)
-         self.n += 1
+        msg = Int16()
+        msg.data = self.n
+        self.pub.publish(msg)
+        self.n += 1
 
 def main():
     rclpy.init()
