@@ -12,7 +12,7 @@ $ git clone https://github.com/Takumi-27/mypkg.git
 * countupからInt16型のメッセージを受信し、標準出力する。
 
 ## 使用方法および実行結果
-　 端末を2つ立ち上げ、talkerとlistenerをそれぞれ実行する。
+* 端末を2つ立ち上げ、talkerとlistenerをそれぞれ実行する。
 ```
 端末1$ ros2 run mypkg talker
 端末2$ ros2 run mypkg listener
