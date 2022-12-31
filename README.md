@@ -1,5 +1,5 @@
 # mypkg   [![test](https://github.com/Takumi-27/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/Takumi-27/mypkg/actions/workflows/test.yml)
-* このリポジトリはROS2のパッケージであり、talker・listener・launchという名前のコマンドが含まれている。
+* このリポジトリはROS2のパッケージであり、talker.py・listener.py・talk_listen.launch.pyという名前のコマンドが含まれている。
 * インストールはこちらから。
 ```
 $git clone https://github.com/Takumi-27/mypkg.git
