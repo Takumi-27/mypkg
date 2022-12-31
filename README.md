@@ -2,10 +2,22 @@
 
 ## インストール方法
 
-## talkerとlistener
+## talker
+* 数字をカウントし、countupというトピックを通じてInt16型のメッセージを送信する。
+
+## listener
+* countupからInt16型のメッセージを受信し、標準出力する。
+
+## 使用方法および実行結果
+　 端末を2つ立ち上げ、talkerとlistenerをそれぞれ実行する。
+```
+端末1$ ros2 run mypkg talker
+端末2$ ros2 run mypkg listener
+
+```
 
 ## launch
-
+* launchファイルを使用することで、複数のノードを一度に立ち上げることが出来る。
 ## 使用環境
 * Ubuntu 22.04
 
