@@ -5,10 +5,10 @@
 $git clone https://github.com/Takumi-27/mypkg.git
 ```
 
-## talker
+## talker.py
 * 数字をカウントし、countupというトピックを通じてInt16型のメッセージを送信する。
 
-## listener
+## listener.py
 * countupからInt16型のメッセージを受信し、標準出力する。
 
 ## 使用方法および実行結果
@@ -22,8 +22,8 @@ $git clone https://github.com/Takumi-27/mypkg.git
 ・・・
 ```
 
-## launch
-* launchファイルを使用することで、talkerとlistenerを一度に立ち上げることが出来る。
+## talk_listen.launch.py
+* launchファイルを使用することで、talker.pyとlistener.pyを一度に立ち上げることが出来る。
 
 ## 使用方法および実行結果
 ```
